@@ -48,7 +48,7 @@ if __name__ == "__main__":
       op = input("\nВведите операцию ((+, -, *, /, **): ")
       operation = read_operation(op)
       #print(operation)
-      print("\nРезультат выводится в шестнадцатеричной системе исчисления")
+      print("\nРезультат выводится в шестнадцатеричной системе исчисления ")
       #print(first_num, operation, second_num, "=", str(result)[2:])
       print(first_num, operation, second_num, "=", perform_operation(first_num, second_num, operation))
       input()
