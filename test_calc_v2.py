@@ -25,7 +25,7 @@ def test_read_operation_neg(op_to_test, result_op):
 #------------------------------------------------
       
 #вычисление результата
-@pytest.mark.parametrize("first_num, second_num, operation, result", [(5, 5, '+', 'a'),
+@pytest.mark.parametrize("first_num, second_num, operation, result", [(5, 5, '+', 'b'),
                                                                       (43, 32, '*', '560')])
 def test_perform_operation_pos(first_num, second_num, operation, result):
       assert calc_v2.perform_operation(first_num, second_num, operation) == result
